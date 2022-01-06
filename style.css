@@ -1,0 +1,78 @@
+ body {
+     display: flex;
+     justify-content: center;
+     background-color: hsl(217, 54%, 11%);
+ }
+ 
+ * {
+     box-sizing: border-box;
+     margin: 0px;
+     padding: 0px;
+     font-family: Outfit;
+     color: hsl(0, 0%, 100%);
+ }
+ 
+ h1 {
+     font-size: 20px;
+ }
+ 
+ .card {
+     background-color: hsl(216, 50%, 16%);
+     border-radius: 5%;
+     width: 300px;
+     height: 500px;
+     display: flex;
+ }
+ 
+ .cardContent {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+ }
+ 
+ .principal {
+     max-height: 85%;
+     max-width: 85%;
+     border-radius: 8px;
+     margin-left: 20px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+ 
+ .sectionone {
+     display: flex;
+     flex-direction: column;
+     align-content: center;
+ }
+ 
+ .sectionone p {
+     margin-top: 15px;
+ }
+ 
+ .sectionone p,
+ h1 {
+     margin-left: 20px;
+ }
+ 
+ .sectiontwo {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+ }
+ 
+ .price {
+     display: flex;
+     color: aqua !important;
+     margin-left: 20px;
+ }
+ 
+ .time {
+     display: flex;
+     margin-right: 20px;
+ }
+ 
+ .attribution {
+     display: flex;
+     justify-content: center;
+     margin-bottom: 20px;
+ }
